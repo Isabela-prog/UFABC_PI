@@ -1,3 +1,16 @@
+"""
+Descrição do problema:
+Escreva um algoritmo que calcula uma data posterior a uma data fornecida pelo usuário. Seu algoritmo deve
+receber uma data no formato DD:MM:AAAA e exibir o dia seguinte a essa data. Por simplicidade, ignore casos
+de anos bissextos.
+
+Entrada:
+Seu programa receberá uma data no formato DD/MM/AAAA.
+
+Saída:
+A saída exibirá o dia seguinte à data fornecida na entrada no formato DD/MM/AAAA.
+"""
+
 data = input()
 
 data_split = data.split("/")
