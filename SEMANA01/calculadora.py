@@ -1,18 +1,3 @@
-Descri¸cão do problema:
-Neste exercício, vamos construir uma calculadora simples, que realiza opera¸cões aritméticas básicas. As
-opera¸cões disponíveis em sua calculadora são:
-
-Operação    Expressão    Cálculo
-Soma        SUM          x + y
-Subtração   DIF          x − y 
-Multipl     MULT         x × y
-Divisão     DIV          x/y
-Potenc      POT          x**y
-Raiz quad   RAIZ         √x
-Log 10      LOG10        log10x 
-
-Sua calculadora receberá um código e o número de operandos correspondentes à operação matemática indicada.
-Seu programa deve interpretar o código e realizar a operação, exibindo seu resultado na saída.
 
 import math
 
