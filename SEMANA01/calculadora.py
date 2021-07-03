@@ -1,4 +1,4 @@
-"" Desceição do problema:
+""" Desceição do problema:
 Neste exercício, vamos construir uma calculadora simples, que realiza opera¸cões aritméticas básicas. As
 operações disponíveis em sua calculadora são:
 
