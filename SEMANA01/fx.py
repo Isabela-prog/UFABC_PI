@@ -1,3 +1,19 @@
+"""
+Descrição do problema:
+Escreva um algoritmo que calcula o resultado de uma função f(x), definido da seguinte forma
+
+f(x) =
+1, se x ≤ 1,
+x, se 1 < x ≤ 5,
+x**2, se 5 < x ≤ 10,
+x**3, se x > 10
+
+Entrada:
+Seu programa receberá um número real x como entrada
+
+Saída:
+A saída exibirá o valor de f(x), com exatamente duas casas decimais.
+"""
 var = input()
 var_str = var.split(' ')
 
