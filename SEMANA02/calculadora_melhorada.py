@@ -1,3 +1,36 @@
+"""
+Descrição do problema:
+Neste exercício, vamos construir uma calculadora simples, que realiza operações aritméticas básicas. As
+operações disponíveis em sua calculadora são:
+Operação Expressão Cálculo
+
+Operação    Expressão    Cálculo
+Soma        SUM          x + y
+Subtração   DIF          x − y 
+Multipl     MULT         x × y
+Divisão     DIV          x/y
+Potenc      POT          x**y
+Raiz quad   RAIZ         √x
+Log 10      LOG10        log10x
+
+Sua calculadora receberá um conjunto de operações (várias operações) em sequência. Cada operação possui
+um código e o número de operandos correspondentes à operação matemática indicada. Seu programa deve
+interpretar o código e realizar a operação, exibindo seu resultado na saída.
+
+Entrada:
+Seu programa receberá, como entrada uma lista de operações matemáticas, sendo uma em cada linha. Cada
+operação possui um código (SUM, DIF, MULT, DIV, POT, RAIZ ou LOG10). Na mesma linha, serão informados os operandos separados por um espa¸co branco cada. As operações de código RAIZ e LOG10 possuem
+somente um operando numérico. As demais possuem dois operandos numéricos.
+
+Saída:
+A saída exibirá o resultado da operação matemática indicada na entrada. Cada linha da entrada terá uma linha
+correspondente na saída com o resultado produzido pela operação matemática solicitada. O resultado é um
+número real com exatamente 2 casas decimais.
+Caso a operação pedida seja inválida, deve ser exibida a seguinte mensagem: “Operacao Invalida”. A operação
+é considera inválida se o código é desconhecido (diferente de SUM, DIF, MULT, DIV, POT, RAIZ e LOG10)
+ou quando, na divisão, o divisor for zero (0).
+"""
+
 import math
 import sys
 
