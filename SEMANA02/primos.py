@@ -1,3 +1,21 @@
+"""
+Descrição do problema:
+Na matemática, um número perfeito é um número inteiro em que a soma de seus divisores (exceto ele mesmo)
+é igual ao próprio número.
+Por exemplo, o número 6 é perfeito, pois a soma de seus divisores (1 + 2 + 3) é igual a 6.
+
+Escreva um algoritmo que consiga identificar se um número é perfeito ou não.
+
+Entrada:
+Seu algoritmo receberá, como entrada, várias linhas com um número inteiro positivo cada.
+
+Saída:
+Para cada linha da entrada, haverá uma linha na saída. Cada uma das linhas deverá exibir uma mensagem
+indicando se o número oferecido na entrada é perfeito ou não. Para números perfeitos, a mensagem deverá ser
+a string “Perfeito”. Para números imperfeitos, a mensagem deverá ser a string “Nao perfeito”.
+
+"""
+
 import sys
 
 for entrada in sys.stdin:
