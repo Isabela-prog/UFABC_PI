@@ -15,7 +15,6 @@ A saída também possui várias linhas. Cada linha corresponde a uma linha forne
 deverá ser apresentada uma lista com todos os n números primos entre x1 e x2. 
 Ou seja x1 ≤ p1 < p2 < . . . < pn ≤ x2, onde pi, 1 ≤ i ≤ n é primo. 
 Os números devem ser separados por um espaço branco.
-
 """
 
 import sys

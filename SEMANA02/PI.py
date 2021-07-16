@@ -13,8 +13,8 @@ A saída será uma aproximaçãao do valor de π, representada pela aplicaçãao
 primeiros termos da série.
 Em cada linha, deverá aparecer a mensagem “pi(n) = v”, onde n é o valor da linhas correspondente na entrada
 e v é o valor calculado, com exatamente quatro casas decimais.
-
 """
+
 import sys
 
 for n in sys.stdin:

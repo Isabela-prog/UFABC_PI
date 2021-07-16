@@ -14,6 +14,7 @@ Seu programa receberá um número real x como entrada
 Saída:
 A saída exibirá o valor de f(x), com exatamente duas casas decimais.
 """
+
 var = input()
 var_str = var.split(' ')
 

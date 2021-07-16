@@ -13,7 +13,6 @@ Saída:
 Para cada linha da entrada, haverá uma linha na saída. Cada uma das linhas deverá exibir uma mensagem
 indicando se o número oferecido na entrada é perfeito ou não. Para números perfeitos, a mensagem deverá ser
 a string “Perfeito”. Para números imperfeitos, a mensagem deverá ser a string “Nao perfeito”.
-
 """
 
 import sys

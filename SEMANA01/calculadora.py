@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 """ Desceição do problema:
 Neste exercício, vamos construir uma calculadora simples, que realiza opera¸cões aritméticas básicas. As
 operações disponíveis em sua calculadora são:
@@ -13,9 +13,8 @@ Raiz quad   RAIZ         √x
 Log 10      LOG10        log10x
 
 Sua calculadora receberá um código e o número de operandos correspondentes à operação matemática indicada.
-Seu programa deve interpretar o código e realizar a operação, exibindo seu resultado na saída. """
-=======
->>>>>>> 13696ea0e2e0a47fa0f5eefbbfa261d658f2091a
+Seu programa deve interpretar o código e realizar a operação, exibindo seu resultado na saída. 
+"""
 
 import math
 
